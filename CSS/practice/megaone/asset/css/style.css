@@ -1,5 +1,58 @@
 
 /* megaone-start*/
+*{
+    margin: 0px;
+}
+
 .maindiv-1{
-    margin: 10;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-nav nav{
+    display: flex;
+    gap: 30px;
+} 
+.main-nav nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.maindiv-2{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    background: linear-gradient(to left, #0176ff, #00b7ff);
+}
+.bg-text{
+    max-width: 500px;
+}
+.bg-text h1{
+    font-size: 62px;
+    margin-top: 20px;
+    padding-left: 20px 15px;
+    margin-bottom: 40px;
+    color:white;
+}
+.bg-text p{
+    font-size: 18px;
+    color:white;
+    margin-bottom: 70px;
+}
+.bg-text a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #002450;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.bg-text a:hover{
+    background-color:white;
+    color: #002450;
 }
