@@ -1,0 +1,102 @@
+/* .content-box{
+  height: 200px;
+  width: 200px;
+  border:10px solid black;
+  padding: 20px;
+  background-color: orange;
+}
+
+.border-box{
+  height: 200px;
+  width: 200px;
+  border:10px solid black;
+  padding: 20px;
+  background-color: gray;
+  box-sizing: border-box;
+} */
+
+/* cascade rule in css  */
+
+/* .box-1{
+  height: 200px;
+  width: 300px;
+  background-color: green;
+}
+
+.box-1{
+  height: 300px;
+} */
+
+
+/* Specificity rule */
+
+/* #box-2{
+  background-color: brown;
+}
+/* .box-1{
+  background-color: blue;
+}
+
+.box-1{
+  background-color: green;
+}
+div{
+  background-color: red;
+} */ 
+
+/* Inheritance rule */
+
+/* p{
+  font-size:35px;
+  color:blueviolet;
+  text-decoration: underline;
+} */
+
+/* .mainbox p{
+  font-size:35px;
+  color:blueviolet;
+  text-decoration: underline;
+} */
+
+/* .mainbox .internalbox1 p {
+  font-size:35px;
+  color:blueviolet;
+  text-decoration: underline;
+}
+.mainbox .internalbox2 p {
+  font-size:35px;
+  color:blueviolet;
+  text-decoration: underline;
+} */
+/* .internalbox1 .para{
+  font-size:35px;
+  color:blueviolet;
+  text-decoration: underline;
+}
+.mainbox .internalbox1 p{
+  font-size:35px;
+  color:blueviolet;
+  text-decoration: line-through;
+} */
+
+/* !important rule  */
+
+.internalbox1 .para{
+  font-size:35px;
+  color:blueviolet !important;
+  text-decoration:underline !important;
+}
+
+.mainbox .internalbox1 p{
+  height: 200px;
+  width:auto;
+  background-color: blue;
+  font-size:20px;
+  color:green !important;
+  text-decoration: line-through;
+}
+
+
+
+
+

@@ -1,0 +1,139 @@
+/* body{
+    margin: 0;
+    background-color: pink;
+} */
+
+
+/* css resetting properties value */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+p{
+    color:green;
+    background-color: yellow;
+}
+
+pre {
+    text-decoration: underline;
+}
+
+.main div{
+    background-color: green;
+}
+.main p{
+    background-color: orange;
+}
+.main div{
+    background-color: unset;
+}
+.main p{
+    background-color: unset;
+}
+
+pre{
+    text-decoration: unset;
+} */
+
+/* Universal selector */
+
+/* *{
+    background-color: red;
+    border:5px solid black;
+} */
+
+
+/* simple tag selector*/
+
+
+
+/* Multipal Class Selector */
+
+/* .main{
+    height: 200px;
+}
+.mainbox{
+    width: 200px;
+}
+.box{
+    background-color: yellow;
+} */
+
+/*css id selector*/
+
+/* #sec{
+    background-color: red;
+    padding: 20px;
+} */
+
+
+/* Examples Combinator selector */
+
+/* Descendent selector */
+
+/* .main div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+} */
+
+
+/* child selector */
+
+
+
+/* .main > div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+} */
+
+
+
+/* adjuacent sibling selector*/
+
+/* .main + .heading{
+    height: 200px;
+    width: 200px;
+    background-color:orangered;
+} */
+
+/* general sibling selector*/
+
+/* .main ~ div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+} */
+
+/* link selector */
+
+/* 
+    link
+    active
+    hover
+    visited
+*/
+
+/* a:link{
+    background-color: green;
+}
+
+a:active{
+    background-color: blueviolet;
+}
+
+a:hover{
+    background-color: red;
+}
+
+a:visited{
+    background-color: rgb(237, 197, 197);
+} */
+
+
+
+

@@ -1,0 +1,42 @@
+/* <!-- color:red, background-color:yellow --> */
+/* <!-- follow # --> */
+
+
+h1:nth-last-of-type(1){
+    color:red;
+    background-color:yellow;
+}
+
+h1:first-child{
+    color:red;
+    background-color:yellow;
+}
+
+h1:last-of-type(2){
+    color:red;
+    background-color:yellow;
+}
+
+h1:nth-child(6){
+     color:red;
+     background-color:yellow;
+}
+
+p:last-child{
+    color:red;
+    background-color:yellow;
+}
+
+a:nth-child(1){
+    color:red;
+    background-color:yellow;
+}
+a:nth-last-of-type(2){
+    color:red;
+    background-color:yellow;
+}
+
+input[type]{
+    color:red;
+    background-color:yellow;
+}
