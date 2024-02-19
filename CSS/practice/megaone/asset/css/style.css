@@ -16,11 +16,20 @@
     gap: 30px;
 } 
 .main-nav nav a{
+    font-family: 'Montserrat';
     text-decoration: none;
     font-weight: bold;
     color: #002450;
 }
 .main-nav nav a:hover{
+    color: #00b7ff;
+    transition: 1s;
+}
+.maindiv-1 i{
+    font-size: 30px;
+    color: #002450;
+}
+.maindiv-1 i:hover{
     color: #00b7ff;
     transition: 1s;
 }
