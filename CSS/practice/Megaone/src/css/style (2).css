@@ -137,9 +137,27 @@ body{
       color: white;
     }
   }
+  .div1:hover {
+    background-color: #00b7ff;
+    transform: translateY(-4px);
+    height: 31vh;
+    transition: all 0.2s linear;
+  }
+  .maindiv-3 .div2:hover {
+    background-color: #00b7ff;
+    transform: translateY(-4px);
+    height: 31vh;
+    transition: all 0.2s linear;
+  }
+  .maindiv-3 .div3:hover {
+    background-color: #00b7ff;
+    transform: translateY(-4px);
+    height: 31vh;
+    transition: all 0.1s linear;
+  }
 }
 
-.maindiv-3 .div1:hover {
+/* .maindiv-3 .div1:hover {
   background-color: #00b7ff;
   transform: translateY(-4px);
   height: 31vh;
@@ -156,7 +174,7 @@ body{
   transform: translateY(-4px);
   height: 31vh;
   transition: all 0.1s linear;
-}
+} */
 
 /* /* @media only screen and (max-width:800px) { */
 
